@@ -1,0 +1,5 @@
+%h1= @pin.title
+%p.descriptin= @pin.descriptin
+= link_to 'Volver', root_path
+= link_to 'Editar', edit_pin_path
+= link_to "Borrar", pin_path, method: :delete, data: { confirm: "Estas seguro?" }, class: "btn btn-default"
