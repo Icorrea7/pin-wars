@@ -29,7 +29,7 @@ gem 'simple_form', '~> 4.0'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'devise', '~> 4.4', '>= 4.4.3'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
